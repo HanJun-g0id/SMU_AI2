@@ -9,7 +9,7 @@ st.sidebar.markdown('Click Page 4')
 image = Image.open("img/dog.png")
 st.image(image, caption="예제 이미지",  use_container_width=True)
 
-#st.audio("example.mp3")
+st.audio("data/tts_audio.mp3")
 
 #st.video("example.mp4")
 

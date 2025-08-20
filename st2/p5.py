@@ -19,11 +19,11 @@ with st.container():
         dob = st.date_input("Please enter your date of birth")
         recommend = st.radio("Would you recommend this app to others?", ("Yes", "No"))
 
-col1, col2, col3 = st.columns([2, 6, 2])
+col1, col2, col3 = st.columns([3, 4, 3])
 
 with col1:
   st.header('Col1')
-  st.image('https://static.streamlit.io/examples/cat.jpg')
+  st.image('https://static.streamlit.io/examples/cat.jpg',width=300)
 
 with col2:
   st.header('Col2')
@@ -32,7 +32,6 @@ with col2:
 with col3:
   st.header('Col3')
   st.image('https://static.streamlit.io/examples/owl.jpg')
-
 
 
 tab1, tab2, tab3 = st.tabs(['Cat', 'Dog', 'Owl'])
